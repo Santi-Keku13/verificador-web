@@ -73,7 +73,7 @@ const BuscadorProductos = () => {
             </div>
             
             <div className="product-detail">
-              <span className="product-label">MAYORISTA:</span>
+              <span className="product-label">OFERTA:</span>
               <span className="product-value">
                 {producto.precioMayorista ? `$${producto.precioMayorista.toLocaleString()}` : 'NO DISPONIBLE'}
               </span>
